@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: index_deal_images_on_deal_id
+# Table name: deal_images
 #
 #  id                 :integer          not null, primary key
 #  deal_id            :integer
