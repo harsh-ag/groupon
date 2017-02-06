@@ -34,6 +34,9 @@ group :development, :test do
 end
 
 group :development do
+  gem 'unicorn', '~> 5.2'
+  gem 'capistrano', '~> 3.7'
+  gem 'capistrano-bundler'
   gem 'web-console', '~> 2.0'
   gem 'spring', '~> 1.7.1'
   gem 'annotate', '~> 2.7.1'
