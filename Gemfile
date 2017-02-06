@@ -18,6 +18,11 @@ gem 'stripe', '~> 1.43.0'
 gem 'serviceworker-rails', '~> 0.3.1'
 gem 'webpush', '~> 0.2.3'
 gem 'whenever', '~> 0.9.7', require: false
+gem 'unicorn', '~> 5.2'
+gem 'capistrano', '~> 3.7'
+gem 'capistrano-rails', '~> 1.2.0'
+gem 'capistrano-bundler'
+gem 'therubyracer'
 
 group :test do
   gem 'simplecov', '~> 0.11.2', require: false
@@ -34,9 +39,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'unicorn', '~> 5.2'
-  gem 'capistrano', '~> 3.7'
-  gem 'capistrano-bundler'
   gem 'web-console', '~> 2.0'
   gem 'spring', '~> 1.7.1'
   gem 'annotate', '~> 2.7.1'

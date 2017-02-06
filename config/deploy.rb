@@ -8,7 +8,8 @@ set :sudo, false
 set :keep_releases, 5
 
 set :linked_files, [ 'config/secrets.yml',
-                     'config/database.yml' ]
+                     'config/database.yml',
+                     'config/constants.yml' ]
 
 set :linked_dirs, [ 'log',
                     'tmp/pids',
